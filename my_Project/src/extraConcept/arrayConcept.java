@@ -4,52 +4,53 @@ import java.util.Arrays;
 
 public class arrayConcept {
 
-	public static String getType(Object obj) {
-		return obj.getClass().getName();
-	}
+    public static String getType(Object obj) {
+        return obj.getClass().getName();
+    }
+    // This method returns the type of the object passed to it
 
-	public static void main(String[] args) {
-		String value = "Tax $25";
+    public static void main(String[] args) {
+        String value = "Tax $25";
 
-		String dollarStringAmount = value.substring(5, 7); //return part of string, from 5th Position to (7-1)th Position
-		System.out.println(dollarStringAmount + " and type is " + getType(dollarStringAmount)); // string
+        String dollarStringAmount = value.substring(5, 7); //return part of string, from 5th Position to (7-1)th Position
+        System.out.println(dollarStringAmount + " and type is " + getType(dollarStringAmount)); // string
 
-		
-		int dollarIntAmount = Integer.parseInt(dollarStringAmount);
-		System.out.println(dollarIntAmount + " and type is " + getType(dollarIntAmount));
 
-		
-		String newValue = value.strip();  //removes white spaces just like we do from trim() method
-		System.out.println(newValue);
+        int dollarIntAmount = Integer.parseInt(dollarStringAmount);
+        System.out.println(dollarIntAmount + " and type is " + getType(dollarIntAmount));
 
-		// Splitting an array
-		String letters = "Rabi Ranjan";
 
-		String[] lettersArray = letters.split("");
+        String newValue = value.strip();  //removes white spaces just like we do from trim() method
+        System.out.println(newValue);
 
-		System.out.println(Arrays.deepToString(lettersArray));
+        // Splitting an array
+        String letters = "Rabi Ranjan";
 
-		// String Builder
-		StringBuilder randomString = new StringBuilder("An random strings");
-		System.out.println(randomString);
-		// appending some strings
-		System.out.println(randomString.append(" again"));
-		// length
-		System.out.println("Length: " + randomString.length());
+        String[] lettersArray = letters.split("");
 
-		// capacity of array
-		System.out.println("Old Capacity: " + randomString.capacity());
+        System.out.println(Arrays.deepToString(lettersArray));
 
-		// Increases the capacity to 60
-		randomString.ensureCapacity(60);
+        // String Builder
+        StringBuilder randomString = new StringBuilder("An random strings");
+        System.out.println(randomString);
+        // appending some strings
+        System.out.println(randomString.append(" again"));
+        // length
+        System.out.println("Length: " + randomString.length());
 
-		// new capacity
-		System.out.println("New Capacity: " + randomString.capacity());
+        // capacity of array
+        System.out.println("Old Capacity: " + randomString.capacity());
 
-		// Trim to Size
-		randomString.trimToSize();
+        // Increases the capacity to 60
+        randomString.ensureCapacity(60);
 
-		System.out.println("After Trim Capacity: " + randomString.capacity());
+        // new capacity
+        System.out.println("New Capacity: " + randomString.capacity());
 
-	}
+        // Trim to Size
+        randomString.trimToSize();
+
+        System.out.println("After Trim Capacity: " + randomString.capacity());
+
+    }
 }
