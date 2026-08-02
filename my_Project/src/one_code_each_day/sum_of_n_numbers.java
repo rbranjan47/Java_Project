@@ -19,6 +19,16 @@ public class sum_of_n_numbers {
         }
     }
 
+    //Using recursion- DSA
+    public static double find_sum_of_n_numbers_recursion(String value){
+       if(Double.parseDouble(value) > 0.00){
+           Double re_number = Double.parseDouble(value);
+           return re_number + find_sum_of_n_numbers_recursion(String.valueOf(re_number-1.00));
+       } else {
+           return 0.00;
+       }
+    }
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter any number: ");
@@ -28,5 +38,8 @@ public class sum_of_n_numbers {
         } else {
             System.out.println(find_sum_of_n_numbers(value));
         }
+
+        System.out.print("Using Recursion: ");
+        System.out.println(find_sum_of_n_numbers_recursion(value));
     }
 }
