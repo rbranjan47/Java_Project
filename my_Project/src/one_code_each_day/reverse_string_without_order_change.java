@@ -44,7 +44,6 @@ public class reverse_string_without_order_change {
 
         String reversedString02 = reverse_string_with_order_change_using_stringBuilder(sentence);
         System.out.println(reversedString02);
-
         String reversedString03 = reverse_string_without_order_change_using_stringBuilder(sentence);
         System.out.println(reversedString03);
     }
