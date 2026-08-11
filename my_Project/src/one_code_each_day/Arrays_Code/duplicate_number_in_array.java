@@ -6,6 +6,16 @@ import java.util.Set;
 
 public class duplicate_number_in_array {
 
+    // this method will find the duplicates but not the count
+    public static void duplicate_number_in_array_check_using_hashset(int[] integer_array) {
+        Set<Integer> sets = new HashSet<>();
+        for (int i = 0; i < integer_array.length; i++) {
+            if (sets.contains(integer_array[i])) {
+                System.out.println("Duplicate values: " + integer_array[i]);
+            }
+            sets.add(integer_array[i]);
+        }
+    }
 
     // this method will find duplicate and return their count
     public static void duplicate_number_in_array_check_using_hashmap(int[] integer_array) {
@@ -31,5 +41,7 @@ public class duplicate_number_in_array {
     public static void main(String[] args) {
         int[] integer_array = {2, 1, 2, 3, 4, 6, 7, 100, 10, 4};
         duplicate_number_in_array_check_using_hashmap(integer_array);
+
+        duplicate_number_in_array_check_using_hashset(integer_array);
     }
 }
