@@ -34,7 +34,6 @@ public class sieve_of_eratosthenes {
 
         //Checking prime
         boolean isPrime = true;
-        for(int j=2; j * j <= ))
 
     }
 

@@ -27,7 +27,7 @@ public class hcf_numbers {
     public static void main(String[] args) {
         System.out.println(hcf_numbers_check(12, 24));
         System.out.println(hcf_numbers_check(12, 13));
-        System.out.println(hcf_numbers_check(12, 15));
+        System.out.println(hcf_numbers_check(3, 8));
         System.out.println(hcf_numbers_check_by_euclidean_algorithm(6, 7));
         System.out.println(hcf_numbers_check_by_euclidean_algorithm(12, 13));
         System.out.println(hcf_numbers_check_by_euclidean_algorithm(6, 24));
