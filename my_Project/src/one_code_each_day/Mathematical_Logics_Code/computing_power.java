@@ -1,7 +1,7 @@
 package one_code_each_day.Mathematical_Logics_Code;
 
 public class computing_power {
-    public static int computing_power_nail_solution(int inputNumber, int power) {
+    public static int computing_power_naive_solution(int inputNumber, int power) {
         int multiplicationNumber = 1;
         for (int i = 1; i <= power; i++) {
             multiplicationNumber = multiplicationNumber * inputNumber;
@@ -21,8 +21,8 @@ public class computing_power {
     }
 
     public static void main(String[] args) {
-        System.out.println(computing_power_nail_solution(2, 3));
-        System.out.println(computing_power_nail_solution(2, 0));
+        System.out.println(computing_power_naive_solution(2, 3));
+        System.out.println(computing_power_naive_solution(2, 0));
 
         System.out.println(computing_power_math_power_solution(2, 3));
         System.out.println(computing_power_math_power_solution(2, 0));
