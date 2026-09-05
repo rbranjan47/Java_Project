@@ -42,7 +42,7 @@ public class arrayLeaders {
 
 
     public static void main(String[] args) {
-        int arr[] = {16, 17, 4, 3, 5, 2};
+        int arr[] = {16, 17, 4, 17, 3, 5, 2};
         int arr2[] = {53, 32, 9, 55, 64, 59, 65, 90};
         System.out.println(arrayLeaders_check(arr));
         System.out.println(arrayLeaders_check(arr2));
