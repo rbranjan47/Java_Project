@@ -1,4 +1,4 @@
-package one_code_each_day.Strings_Code;
+package one_code_each_day.Mathematical_Logics_Code;
 
 public class numberToBinary {
 

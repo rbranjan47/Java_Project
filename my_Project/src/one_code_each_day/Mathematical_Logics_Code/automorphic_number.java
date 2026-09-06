@@ -1,4 +1,4 @@
-package one_code_each_day.Strings_Code;
+package one_code_each_day.Mathematical_Logics_Code;
 
 //A Number that when squared ends with the number itself is known as the Automorphic Number. Let's try and understand the concept of Automorphic Number,
 //Example
@@ -8,7 +8,7 @@ package one_code_each_day.Strings_Code;
 //when squared you get 25
 //as 25 ends with 5
 
-public class automorphic_number_string {
+public class automorphic_number {
     public static boolean automorphic_number_string_check(String num) {
         String[] given_number_arrays = num.split("");
         int given_number_last_digit = Integer.parseInt(given_number_arrays[given_number_arrays.length - 1]);

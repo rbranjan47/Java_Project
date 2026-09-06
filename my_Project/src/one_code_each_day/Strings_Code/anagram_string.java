@@ -2,6 +2,8 @@ package one_code_each_day.Strings_Code;
 
 //Anagram- a word or phrase made by mixing up the letters of another word or phrase, using all the original letters exactly once
 
+import java.util.Arrays;
+
 public class anagram_string {
     public static boolean anagram_string_check(String sentence1, String sentence2) {
         boolean anagramCheck = false;
@@ -36,9 +38,23 @@ public class anagram_string {
         return true;
     }
 
+    public static boolean anagram_check_sorting(String sentence1, String sentence2) {
+        if (sentence1.length() != sentence2.length()) {
+            return false;
+        }
+        char[] sentence1_array = sentence1.toCharArray();
+        char[] sentence2_array = sentence2.toCharArray();
+        Arrays.sort(sentence1_array);
+        Arrays.sort(sentence2_array);
+        if (Arrays.equals(sentence1_array, sentence2_array)) {
+            return true;
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         String sentence1 = "abb";
-        String sentence2 = "bac";
+        String sentence2 = "bab";
         if (!anagram_check_removing_character(sentence1, sentence2)) {
             System.out.println("Not an anagram!");
         } else {
@@ -50,5 +66,7 @@ public class anagram_string {
         } else {
             System.out.println("Anagram!");
         }
+
+        System.out.println(anagram_check_sorting(sentence1, sentence2) ? "Anagram!" : "Not an anagram!");
     }
 }

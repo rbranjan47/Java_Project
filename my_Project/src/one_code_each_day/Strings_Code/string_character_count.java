@@ -18,7 +18,7 @@ public class string_character_count {
                     count++;
                 }
             }
-            System.out.println("Duplicate characters: " + strs_array[i] + " count: " + count);
+            System.out.println("Character: " + strs_array[i] + " count: " + count);
         }
     }
 
