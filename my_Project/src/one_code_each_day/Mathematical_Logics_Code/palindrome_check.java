@@ -55,7 +55,7 @@ public class palindrome_check {
         palindrome_check_function("ABBA");
         palindrome_check_function("MOM");
         palindrome_check_function("RADAR");
-        palindrome_check_function("Tenet");
+        palindrome_check_function("tenet");
         palindrome_check_function("12321");
         palindrome_check_function("987656789");
 
