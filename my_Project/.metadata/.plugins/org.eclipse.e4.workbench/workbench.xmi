@@ -1266,7 +1266,7 @@
   <commands xmi:id="_KLXk3gJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.refactor.migrate.jar" commandName="Migrate JAR File" description="Migrate a JAR File to a new version" category="_KLSsWAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLXk3wJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.correction.assignParamToField.assist" commandName="Quick Assist - Assign parameter to field" description="Invokes quick assist and selects 'Assign parameter to field'" category="_KLSsYwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLXk4AJfEeu8Gc79Em4GPA" elementId="org.eclipse.egit.ui.command.configureTrace" commandName="Configure Git Debug Trace" category="_KLSsXwJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_KLXk4QJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.move.inner.to.top.level" commandName="Move Type to New File" description="Move Type to New File" category="_KLSsWAJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_KLXk4QJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.move.inner.to.top.level" commandName="Move Type to Legacy File" description="Move Type to Legacy File" category="_KLSsWAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLXk4gJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.navigate.linkWithEditor" commandName="Toggle Link with Editor" description="Toggles linking of a view's selection with the active editor's selection" category="_KLSsUQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLXk4wJfEeu8Gc79Em4GPA" elementId="org.eclipse.wst.sse.ui.open.file.from.source" commandName="Open Selection" description="Open an editor on the selected link" category="_KLSFQgJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLXk5AJfEeu8Gc79Em4GPA" elementId="org.eclipse.compare.ignoreWhiteSpace" commandName="Ignore White Space" description="Ignore white space where applicable" category="_KLSsVQJfEeu8Gc79Em4GPA"/>
@@ -1422,7 +1422,7 @@
   <commands xmi:id="_KLb2TgJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.convert.anonymous.to.nested" commandName="Convert Anonymous Class to Nested" description="Convert an anonymous class to a nested class" category="_KLSsWAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLb2TwJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.correction.changeToStatic" commandName="Quick Fix - Change to static access" description="Invokes quick assist and selects 'Change to static access'" category="_KLSsYwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLb2UAJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.window.fullscreenmode" commandName="Toggle Full Screen" description="Toggles the window between full screen and normal" category="_KLSsVwJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_KLb2UQJfEeu8Gc79Em4GPA" elementId="org.eclipse.debug.ui.commands.newRendering" commandName="New Rendering" description="Add a new rendering." category="_KLSsXAJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_KLb2UQJfEeu8Gc79Em4GPA" elementId="org.eclipse.debug.ui.commands.newRendering" commandName="Legacy Rendering" description="Add a new rendering." category="_KLSsXAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLb2UgJfEeu8Gc79Em4GPA" elementId="org.eclipse.equinox.p2.ui.sdk.installationDetails" commandName="Installation Details" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLb2UwJfEeu8Gc79Em4GPA" elementId="org.eclipse.team.ui.synchronizeAll" commandName="Synchronize..." description="Synchronize resources in the workspace with another location" category="_KLSFQAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLb2VAJfEeu8Gc79Em4GPA" elementId="org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand" commandName="Select Maven Profiles" category="_KLSsVwJfEeu8Gc79Em4GPA"/>
@@ -1486,7 +1486,7 @@
   <commands xmi:id="_KLcdcQJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.introduce.parameter" commandName="Introduce Parameter" description="Introduce a new method parameter based on the selected expression" category="_KLSsWAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLcdcgJfEeu8Gc79Em4GPA" elementId="org.eclipse.eclemma.ui.removeAllSessions" commandName="Remove All Sessions" category="_KLSsUwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLcdcwJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.debug.ui.localJavaShortcut.run" commandName="Run Java Application" description="Run Java Application" category="_KLSsXAJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_KLdEYAJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.edit.addTask" commandName="Add Task..." description="Add a task" category="_KLSFQgJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_KLdEYAJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.edit.addTask" commandName="Add Legacy.Task..." description="Add a task" category="_KLSFQgJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLdEYQJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu" commandName="Show Occurrences in File Quick Menu" description="Shows the Occurrences in File quick menu" category="_KLSsWwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLdEYgJfEeu8Gc79Em4GPA" elementId="org.eclipse.wst.sse.ui.structure.select.enclosing" commandName="Select Enclosing Element" description="Expand selection to include enclosing element" category="_KLSFQgJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLdEYwJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.edit.text.toggleInsertMode" commandName="Toggle Insert Mode" description="Toggle insert mode" category="_KLSFQgJfEeu8Gc79Em4GPA"/>
@@ -1660,7 +1660,7 @@
   <commands xmi:id="_KLgHsQJfEeu8Gc79Em4GPA" elementId="org.eclipse.egit.ui.RebaseInteractiveCurrent" commandName="Interactive Rebase" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLgHsgJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.perspectives.showPerspective" commandName="Show Perspective" description="Show a particular perspective" category="_KLSsYAJfEeu8Gc79Em4GPA">
     <parameters xmi:id="_KLgHswJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.perspectives.showPerspective.perspectiveId" name="Parameter"/>
-    <parameters xmi:id="_KLgHtAJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.perspectives.showPerspective.newWindow" name="In New Window"/>
+    <parameters xmi:id="_KLgHtAJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.perspectives.showPerspective.newWindow" name="In Legacy Window"/>
   </commands>
   <commands xmi:id="_KLgHtQJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.window.openEditorDropDown" commandName="Quick Switch Editor" description="Open the editor drop down list" category="_KLSsVwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLgHtgJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.edit.text.goto.line" commandName="Go to Line" description="Go to a specified line of text" category="_KLSsUQJfEeu8Gc79Em4GPA"/>
@@ -1679,7 +1679,7 @@
   <commands xmi:id="_KLgHwwJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.edit.text.cut.line.to.end" commandName="Cut to End of Line" description="Cut to the end of a line of text" category="_KLSsUAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLgHxAJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.correction.convertAnonymousToLocal.assist" commandName="Quick Assist - Convert anonymous to local class" description="Invokes quick assist and selects 'Convert anonymous to local class'" category="_KLSsYwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLgHxQJfEeu8Gc79Em4GPA" elementId="org.eclipse.compare.copyLeftToRight" commandName="Copy from Left to Right" description="Copy Current Change from Left to Right" category="_KLSsVQJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_KLgHxgJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.file.newQuickMenu" commandName="New menu" description="Open the New menu" category="_KLSsVAJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_KLgHxgJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.file.newQuickMenu" commandName="Legacy menu" description="Open the Legacy menu" category="_KLSsVAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLgHxwJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.project.openProject" commandName="Open Project" description="Open a project" category="_KLSsWgJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLgHyAJfEeu8Gc79Em4GPA" elementId="org.eclipse.debug.ui.actions.WatchCommand" commandName="Watch" description="Create a watch expression from the current selection and add it to the Expressions view" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLgHyQJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.file.openWorkspace" commandName="Switch Workspace" description="Open the workspace selection dialog" category="_KLSsVAJfEeu8Gc79Em4GPA"/>
@@ -1925,17 +1925,17 @@
   <commands xmi:id="_KLkZOgJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.rename.element" commandName="Rename - Refactoring " description="Rename the selected element" category="_KLSsWAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZOwJfEeu8Gc79Em4GPA" elementId="org.eclipse.egit.ui.team.RemoveFromIndex" commandName="Remove from Index" category="_KLSsXwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZPAJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.externalize.strings" commandName="Externalize Strings" description="Finds all strings that are not externalized and moves them into a separate property file" category="_KLSsYwJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_KLkZPQJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.newWizard" commandName="New" description="Open the New item wizard" category="_KLSsVAJfEeu8Gc79Em4GPA">
-    <parameters xmi:id="_KLkZPgJfEeu8Gc79Em4GPA" elementId="newWizardId" name="New Wizard"/>
+  <commands xmi:id="_KLkZPQJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.newWizard" commandName="Legacy" description="Open the Legacy item wizard" category="_KLSsVAJfEeu8Gc79Em4GPA">
+    <parameters xmi:id="_KLkZPgJfEeu8Gc79Em4GPA" elementId="newWizardId" name="Legacy Wizard"/>
   </commands>
-  <commands xmi:id="_KLkZPwJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.window.newWindow" commandName="New Window" description="Open another window" category="_KLSsVwJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_KLkZPwJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.window.newWindow" commandName="Legacy Window" description="Open another window" category="_KLSsVwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZQAJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.uncomment" commandName="Uncomment" description="Uncomment the selected Java comment lines" category="_KLSsYwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZQQJfEeu8Gc79Em4GPA" elementId="org.eclipse.lsp4e.showkindinoutline" commandName="Show Kind in Outline" category="_KLSsUgJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZQgJfEeu8Gc79Em4GPA" elementId="org.eclipse.e4.ui.importer.configureProject" commandName="Configure and Detect Nested Projects..." category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZQwJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.file.close" commandName="Close" description="Close the active editor" category="_KLSsVAJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZRAJfEeu8Gc79Em4GPA" elementId="org.eclipse.eclemma.ui.selectActiveSession" commandName="Select Active Session..." category="_KLSsUwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZRQJfEeu8Gc79Em4GPA" elementId="org.eclipse.egit.ui.history.CompareVersions" commandName="Compare with Each Other" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_KLkZRgJfEeu8Gc79Em4GPA" elementId="org.eclipse.equinox.p2.ui.sdk.install" commandName="Install New Software..." category="_KLSsZQJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_KLkZRgJfEeu8Gc79Em4GPA" elementId="org.eclipse.equinox.p2.ui.sdk.install" commandName="Install Legacy Software..." category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZRwJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.window.customizePerspective" commandName="Customize Perspective" description="Customize the current perspective" category="_KLSsVwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZSAJfEeu8Gc79Em4GPA" elementId="org.eclipse.jdt.ui.edit.text.java.surround.with.try.catch" commandName="Surround with try/catch Block" description="Surround the selected text with a try/catch block" category="_KLSsYwJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_KLkZSQJfEeu8Gc79Em4GPA" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar" commandName="Run Last Launched External Tool" description="Runs the last launched external Tool" category="_KLSsXAJfEeu8Gc79Em4GPA"/>
@@ -2002,9 +2002,9 @@
   <commands xmi:id="_K5ZvgQJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.eclemma.ui.CoverageActionSet/org.eclipse.eclemma.ui.actions.CoverageAsAction" commandName="Coverage As" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5ZvggJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.eclemma.ui.CoverageActionSet/org.eclipse.eclemma.ui.actions.CoverageHistoryAction" commandName="Coverage History" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5aWkAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.egit.ui.SearchActionSet/org.eclipse.egit.ui.actions.OpenCommitSearchPage" commandName="Git..." category="_KLSsZQJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_K5dZ4AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.NewTypeDropDown" commandName="Class..." description="New Java Class" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_K5eA8AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.OpenPackageWizard" commandName="Package..." description="New Java Package" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_K5eoAAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.OpenProjectWizard" commandName="Java Project..." description="New Java Project" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_K5dZ4AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.NewTypeDropDown" commandName="Class..." description="Legacy Java Class" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_K5eA8AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.OpenPackageWizard" commandName="Package..." description="Legacy Java Package" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_K5eoAAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.jdt.ui.JavaElementCreationActionSet/org.eclipse.jdt.ui.actions.OpenProjectWizard" commandName="Java Project..." description="Legacy Java Project" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5f2IAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.jdt.ui.SearchActionSet/org.eclipse.jdt.ui.actions.OpenJavaSearchPage" commandName="Java..." category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5gdMAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" commandName="Cheat Sheets..." category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5hEQAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.search.searchActionSet/org.eclipse.search.OpenSearchDialogPage" commandName="Search..." description="Search" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
@@ -2043,7 +2043,7 @@
   <commands xmi:id="_K5wU0AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.expressionsView.toolbar/org.eclipse.debug.ui.expresssionsView.toolbar.removeAll" commandName="Remove All" description="Remove All Expressions" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5wU0QJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.expressionsView.toolbar/org.eclipse.debug.ui.expresssionsView.toolbar.AddWatchExpression" commandName="Add Watch Expression..." description="Create a new watch expression" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5w74AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.PinMemoryBlockAction" commandName="Pin Memory Monitor" description="Pin Memory Monitor" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
-  <commands xmi:id="_K5xi8AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.NewMemoryViewAction" commandName="New Memory View" description="New Memory View" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
+  <commands xmi:id="_K5xi8AJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.NewMemoryViewAction" commandName="Legacy Memory View" description="Legacy Memory View" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5yKAAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.togglemonitors" commandName="Toggle Memory Monitors Pane" description="Toggle Memory Monitors Pane" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5yKAQJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.linkrenderingpanes" commandName="Link Memory Rendering Panes" description="Link Memory Rendering Panes" category="_KLSsZQJfEeu8Gc79Em4GPA"/>
   <commands xmi:id="_K5yxEAJfEeu8Gc79Em4GPA" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.tablerendering.preferencesaction" commandName="Table Renderings Preferences..." description="&amp;Table Renderings Preferences..." category="_KLSsZQJfEeu8Gc79Em4GPA"/>
