@@ -3,7 +3,7 @@ package DSA_JAVA.Sortings;
 import java.util.Collections;
 import java.util.List;
 
-public class abc__sorting {
+public class _abc__sorting {
 
 
     // Sorting - In DSA, sorting is the process of arranging data in a particular order. The most common orders are ascending and descending.

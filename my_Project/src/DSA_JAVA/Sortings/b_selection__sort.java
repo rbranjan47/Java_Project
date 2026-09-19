@@ -18,7 +18,7 @@ package DSA_JAVA.Sortings;
 //                           swap arr[minIndex] and arr[i]
 //                   return arr
 
-public class b_selection_sort {
+public class b_selection__sort {
     public static void b_selection_sort_naive_implementation(int[] arr) {
         int arr_length = arr.length;
         for (int i = 0; i < arr_length - 1; i++) {
