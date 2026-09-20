@@ -43,7 +43,7 @@ public class intersection_of_two_sorted_array {
             } else if (arr1[i] > arr2[j]) {
                 j++;
             } else {
-                System.out.println(arr1[i]);
+                System.out.print(arr1[i] + " ");
                 i++;
                 j++;
             }
