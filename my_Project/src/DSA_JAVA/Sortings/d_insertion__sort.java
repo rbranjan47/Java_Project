@@ -25,23 +25,23 @@ public class d_insertion__sort {
     public static void d_insertion__sort__check(int[] arr) {
         int arr_length = arr.length;
         for (int i = 1; i < arr_length; i++) {
-            int insertion_value = arr[i];
+            int key = arr[i];
             int j = i - 1;
-            while (j >= 0 && arr[j] > insertion_value) {
+            while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
                 j = j - 1;
-                arr[j + 1] = insertion_value;
+                arr[j + 1] = key;
             }
         }
 
         // printing the array
         for (int i = 0; i < arr_length; i++) {
-            System.out.print(arr[i] + ", ");                                                                                               
+            System.out.print(arr[i] + ", ");
         }
     }
 
     public static void main(String[] args) {
-        int arr[] = {64, 25, 12, 22, 11};
+        int arr[] = {64, 25, 12, 22, 11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
         d_insertion__sort__check(arr);
     }
 }
