@@ -31,7 +31,7 @@ public class fibonaaci_series {
     }
 
     public static void main(String[] args) {
-        fibonnaci_series_using_recursion(4);
+        fibonnaci_series_using_recursion(10);
         System.out.println("");
         System.out.println("--------------------------------");
 
